@@ -1,0 +1,13 @@
+node_modules/
+build/
+css/*.css
+bower_components/
+.DS_Store
+Thumbs.db
+.idea
+*.sublime*
+*.log
+*.psd
+*.ai
+*.pdf
+
