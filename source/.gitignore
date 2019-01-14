@@ -1,6 +1,6 @@
 node_modules/
 build/
-css/*.css
+source/css/*.css
 bower_components/
 .DS_Store
 Thumbs.db
