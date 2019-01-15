@@ -4,8 +4,212 @@
     <title>Eclipse</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:700|Montserrat:400,700" rel="stylesheet">
 </head>
 <body>
+  <header class="page-header container">
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link logo">
+            <svg class="logo__img" width="68" height="68" aria-label="логотип Eclipse">
+              <use xlink:href="sprite.svg#logo-header">
+            </svg>
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a href="" class="main-nav__link">About</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="" class="main-nav__link">Studio</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="" class="main-nav__link">Pricing</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="" class="main-nav__link">Blog</a>
+        </li>
+        <li class="main-nav__item main-nav__item--join">
+          <a href="" class="main-nav__link">Join</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="promo container">
+      <div class="promo__wrapper">
+        <h1 class="promo__title">Push yourself & your<br/> designs</h1>
+        <p class="promo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <form class="promo__form" action="#" method="post">
+        <select size="1" name="design_style">
+          <option label>Design Style</option>
+          <option value="design1">design one</option>
+          <option value="design2">design two</option>
+          <option value="design3">design three</option>
+        </select>
+        <input class="promo__input" type="email" name="email" value="Email" required>
+        <button class="promo__btn" type="submit">
+          <svg class="arrow__img" width="16" height="16" viewBox="0 0 16 16" aria-label="логотип Eclipse">
+            <use xlink:href="sprite.svg#arrow-right">
+          </svg>
+        </button>
+      </form>
+      <a class="arrow" href="#">
+        <svg class="arrow__img" width="21" height="21.062" aria-label="логотип Eclipse">
+          <use xlink:href="sprite.svg#arrow-bottom">
+        </svg>
+      </a>
+    </section>
+    <section class="latest">
+      <h2 class="latest__title">Latest design style</h2>
+      <p class="latest__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a class="arrow" href="#">
+        <svg class="arrow__img" width="21" height="21.062" aria-label="логотип Eclipse">
+          <use xlink:href="sprite.svg#arrow-bottom">
+        </svg>
+      </a>
+    </section>
+    <section class="features container">
+      <h3 class="feature__title">Features of app</h3>
+      <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="features__wrapper">
+        <div class="features__item">
+          <h4 class="features__item-title">Lorem ipsum dolor sit</h4>
+          <p class="features__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+        </div>
+        <div class="features__item">
+          <h4 class="features__item-title">Ametconsectetur</h4>
+          <p class="features__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+        </div>
+        <div class="features__item">
+          <h4 class="features__item-title">Lorem ipsum dolor sit</h4>
+          <p class="features__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+        <div class="features__item">
+          <h4 class="features__item-title">Lorem ipsum dolor sit</h4>
+          <p class="features__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo r incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <a class="arrow" href="#">
+        <svg class="arrow__img" width="21" height="21.062" aria-label="логотип Eclipse">
+          <use xlink:href="sprite.svg#arrow-bottom">
+        </svg>
+      </a>
+    </section>
+    <section class="guidelines container">
+      <h3 class="guidelines__title">Our design guidelines</h3>
+      <p class="guidelines__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo r incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+      <div class="slider">
+        <input class="slider__input" type="radio" name="toggle" id="development">
+        <input class="slider__input" type="radio" name="toggle" id="design">
+        <input class="slider__input" type="radio" name="toggle" id="business">
+        <input class="slider__input" type="radio" name="toggle" id="arts">
+        <div class="slider__toggles">
+          <label class="slider__label" for="development">Development</label>
+          <label class="slider__label" for="design">Design</label>
+          <label class="slider__label" for="business">Business</label>
+          <label class="slider__label" for="arts">Arts</label>
+        </div>
+        <div class="slider__slides">
+          <div class="slider__slide der__slide--one">
+            <div class="slider__item">
+              <a class="slider__link" href="#">Development listing one</a>
+            </div>
+            <div class="slider__item">
+              <a class="slider__link" href="#">Development listing one</a>
+            </div>
+            <div class="slider__item">
+              <a class="slider__link" href="#">Development listing one</a>
+            </div>
+          </div>
 
+          <div class="slider__slide der__slide--two">
+            <div class="slider__item">
+              <a class="slider__link" href="#">Design listing one</a>
+            </div>
+            <div class="slider__item">
+              <a class="slider__link" href="#">Design listing one</a>
+            </div>
+            <div class="slider__item">
+              <a class="slider__link" href="#">Design listing one</a>
+            </div>
+          </div>
+
+          <div class="slider__slide der__slide--three">
+            <div class="slider__item">
+              <a class="slider__link" href="#">Business listing one</a>
+            </div>
+            <div class="slider__item">
+              <a class="slider__link" href="#">Business listing one</a>
+            </div>
+            <div class="slider__item">
+              <a class="slider__link" href="#">Business listing one</a>
+            </div>
+          </div>
+
+          <div class="slider__slide der__slide--four">
+            <div class="slider__item">
+              <a class="slider__link" href="#">Arts listing one</a>
+            </div>
+            <div class="slider__item">
+              <a class="slider__link" href="#">Arts listing one</a>
+            </div>
+            <div class="slider__item">
+              <a class="slider__link" href="#">Arts listing one</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="promo promo--two container">
+      <a class="logo logo--promo">
+        <svg class="logo__img logo__img--promo" width="177" height="177" aria-label="логотип Eclipse">
+          <use xlink:href="sprite.svg#logo-2nd">
+        </svg>
+      </a>
+      <div class="promo__wrapper">
+        <span class="promo__title">Push yourself & your<br/> designs</span>
+        <p class="promo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer container">
+    <div class="social">
+      <a class="social__item social__item--tw" href="#">Tweet</a>
+      <a class="social__item social__item--fb" href="#">Share</a>
+    </div>
+    <div class="nav-footer">
+      <ul class="nav-footer__list">
+        <li class="nav-footer__item">
+          <a class="nav-footer__link" href="#"></a>
+        </li>
+        <li class="nav-footer__item">
+          <a class="nav-footer__link" href="#"></a>
+        </li>
+        <li class="nav-footer__item">
+          <a class="nav-footer__link" href="#"></a>
+        </li>
+        <li class="nav-footer__item">
+          <a class="nav-footer__link" href="#"></a>
+        </li>
+      </ul>
+      <ul class="nav-footer__list">
+        <li class="nav-footer__item">
+          <a class="nav-footer__link" href="#"></a>
+        </li>
+        <li class="nav-footer__item">
+          <a class="nav-footer__link" href="#"></a>
+        </li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <span class="copyright__madein">Made in Melbourne By BlazRobar.com @BlazRobar</span>
+      <span class="copyright__etc">Copyright © 2016, Cool stuff <a class="copyright__staff" href="#">here</a></span>
+    </div>
+    <span class="etc">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+  </footer>
+  <a class="label" href="#">Contact us</a>
+  <a class="label__up" href="#">Up</a>
 </body>
 </html>
