@@ -7,42 +7,42 @@
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:700|Montserrat:400,700" rel="stylesheet">
 </head>
 <body>
-  <header class="page-header container">
-    <nav class="main-nav">
-      <ul class="main-nav__list">
-        <li class="main-nav__item">
-          <a class="main-nav__link logo">
-            <svg class="logo__img" width="68" height="68" aria-label="логотип Eclipse">
-              <use xlink:href="sprite.svg#logo-header">
-            </svg>
-          </a>
-        </li>
-        <li class="main-nav__item">
-          <a href="" class="main-nav__link">About</a>
-        </li>
-        <li class="main-nav__item">
-          <a href="" class="main-nav__link">Studio</a>
-        </li>
-        <li class="main-nav__item">
-          <a href="" class="main-nav__link">Pricing</a>
-        </li>
-        <li class="main-nav__item">
-          <a href="" class="main-nav__link">Blog</a>
-        </li>
-        <li class="main-nav__item main-nav__item--join">
-          <a href="" class="main-nav__link">Join</a>
-        </li>
-      </ul>
-    </nav>
+  <header class="page-header">
   </header>
   <main>
     <section class="promo container">
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item logo">
+            <a class="main-nav__link logo__link">
+              <svg class="logo__img" width="68" height="68" aria-label="логотип Eclipse">
+                <use xlink:href="sprite.svg#logo-header">
+              </svg>
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link main-nav__link--current">About</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">Studio</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">Pricing</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">Blog</a>
+          </li>
+          <li class="main-nav__item main-nav__item--join">
+            <a href="" class="main-nav__link main-nav__link--join">Join</a>
+          </li>
+        </ul>
+      </nav>
       <div class="promo__wrapper">
         <h1 class="promo__title">Push yourself & your<br/> designs</h1>
         <p class="promo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <form class="promo__form" action="#" method="post">
-        <select size="1" name="design_style">
+        <select class="promo__select" size="1" name="design_style">
           <option label>Design Style</option>
           <option value="design1">design one</option>
           <option value="design2">design two</option>
@@ -61,7 +61,7 @@
         </svg>
       </a>
     </section>
-    <section class="latest">
+    <section class="latest container">
       <h2 class="latest__title">Latest design style</h2>
       <p class="latest__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <a class="arrow" href="#">
@@ -71,24 +71,24 @@
       </a>
     </section>
     <section class="features container">
-      <h3 class="feature__title">Features of app</h3>
+      <h3 class="features__title">Features of app</h3>
       <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <div class="features__wrapper">
-        <div class="features__item">
+        <div class="features__item features__item--cart">
           <h4 class="features__item-title">Lorem ipsum dolor sit</h4>
-          <p class="features__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+          <p class="features__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
-        <div class="features__item">
+        <div class="features__item features__item--plane">
           <h4 class="features__item-title">Ametconsectetur</h4>
           <p class="features__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
         </div>
-        <div class="features__item">
+        <div class="features__item features__item--arrows">
           <h4 class="features__item-title">Lorem ipsum dolor sit</h4>
-          <p class="features__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          <p class="features__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo r incididunt ut labore.</p>
         </div>
-        <div class="features__item">
+        <div class="features__item features__item--window">
           <h4 class="features__item-title">Lorem ipsum dolor sit</h4>
-          <p class="features__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo r incididunt ut labore et dolore magna aliqua.</p>
+          <p class="features__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo r incididunt ut labore et dolore magna.</p>
         </div>
       </div>
       <a class="arrow" href="#">
@@ -162,15 +162,15 @@
         </div>
       </div>
     </section>
-    <section class="promo promo--two container">
+    <section class="promo-snd container">
       <a class="logo logo--promo">
         <svg class="logo__img logo__img--promo" width="177" height="177" aria-label="логотип Eclipse">
           <use xlink:href="sprite.svg#logo-2nd">
         </svg>
       </a>
-      <div class="promo__wrapper">
-        <span class="promo__title">Push yourself & your<br/> designs</span>
-        <p class="promo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="promo-snd__wrapper">
+        <span class="promo-snd__title">Push yourself & your<br/> designs</span>
+        <p class="promo-snd__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
     </section>
   </main>
