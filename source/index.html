@@ -16,7 +16,7 @@
           <li class="main-nav__item logo">
             <a class="main-nav__link logo__link">
               <svg class="logo__img" width="68" height="68" aria-label="логотип Eclipse">
-                <use xlink:href="sprite.svg#logo-header">
+                <use xlink:href="sprite.svg#logo-header"/>
               </svg>
             </a>
           </li>
@@ -51,13 +51,13 @@
         <input class="promo__input" type="email" name="email" value="Email" required>
         <button class="promo__btn" type="submit">
           <svg class="arrow__img" width="16" height="16" viewBox="0 0 16 16" aria-label="логотип Eclipse">
-            <use xlink:href="sprite.svg#arrow-right">
+            <use xlink:href="sprite.svg#arrow-right"/>
           </svg>
         </button>
       </form>
       <a class="arrow" href="#">
         <svg class="arrow__img" width="21" height="21.062" aria-label="логотип Eclipse">
-          <use xlink:href="sprite.svg#arrow-bottom">
+          <use xlink:href="sprite.svg#arrow-bottom"/>
         </svg>
       </a>
     </section>
@@ -66,7 +66,7 @@
       <p class="latest__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <a class="arrow" href="#">
         <svg class="arrow__img" width="21" height="21.062" aria-label="логотип Eclipse">
-          <use xlink:href="sprite.svg#arrow-bottom">
+          <use xlink:href="sprite.svg#arrow-bottom"/>
         </svg>
       </a>
     </section>
@@ -93,7 +93,7 @@
       </div>
       <a class="arrow" href="#">
         <svg class="arrow__img" width="21" height="21.062" aria-label="логотип Eclipse">
-          <use xlink:href="sprite.svg#arrow-bottom">
+          <use xlink:href="sprite.svg#arrow-bottom"/>
         </svg>
       </a>
     </section>
@@ -102,17 +102,17 @@
       <p class="guidelines__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo r incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
       <div class="slider">
         <input class="slider__input" type="radio" name="toggle" id="development">
-        <input class="slider__input" type="radio" name="toggle" id="design">
+        <input class="slider__input" type="radio" name="toggle" id="design" checked>
         <input class="slider__input" type="radio" name="toggle" id="business">
         <input class="slider__input" type="radio" name="toggle" id="arts">
         <div class="slider__toggles">
-          <label class="slider__label" for="development">Development</label>
-          <label class="slider__label" for="design">Design</label>
-          <label class="slider__label" for="business">Business</label>
-          <label class="slider__label" for="arts">Arts</label>
+          <label class="slider__toggle slider__toggle--one" for="development">Development</label>
+          <label class="slider__toggle slider__toggle--two" for="design">Design</label>
+          <label class="slider__toggle slider__toggle--three" for="business">Business</label>
+          <label class="slider__toggle slider__toggle--four" for="arts">Arts</label>
         </div>
         <div class="slider__slides">
-          <div class="slider__slide der__slide--one">
+          <div class="slider__slide slider__slide--one">
             <div class="slider__item">
               <a class="slider__link" href="#">Development listing one</a>
             </div>
@@ -124,7 +124,7 @@
             </div>
           </div>
 
-          <div class="slider__slide der__slide--two">
+          <div class="slider__slide slider__slide--two">
             <div class="slider__item">
               <a class="slider__link" href="#">Design listing one</a>
             </div>
@@ -136,7 +136,7 @@
             </div>
           </div>
 
-          <div class="slider__slide der__slide--three">
+          <div class="slider__slide slider__slide--three">
             <div class="slider__item">
               <a class="slider__link" href="#">Business listing one</a>
             </div>
@@ -148,7 +148,7 @@
             </div>
           </div>
 
-          <div class="slider__slide der__slide--four">
+          <div class="slider__slide slider__slide--four">
             <div class="slider__item">
               <a class="slider__link" href="#">Arts listing one</a>
             </div>
@@ -163,14 +163,16 @@
       </div>
     </section>
     <section class="promo-snd container">
-      <a class="logo logo--promo">
-        <svg class="logo__img logo__img--promo" width="177" height="177" aria-label="логотип Eclipse">
-          <use xlink:href="sprite.svg#logo-2nd">
-        </svg>
-      </a>
       <div class="promo-snd__wrapper">
-        <span class="promo-snd__title">Push yourself & your<br/> designs</span>
-        <p class="promo-snd__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a class="logo logo--promo">
+          <svg class="logo__img logo__img--promo" width="177" height="177" aria-label="логотип Eclipse">
+            <use xlink:href="sprite.svg#logo-2nd"/>
+          </svg>
+        </a>
+        <div class="promo-snd__inner">
+          <p class="promo-snd__title">Push yourself & your<br/> designs</p>
+          <p class="promo-snd__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
       </div>
     </section>
   </main>
