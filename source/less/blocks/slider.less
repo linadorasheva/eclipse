@@ -1,0 +1,113 @@
+.slider {
+  margin-bottom: 100px;
+}
+
+.slider__input {
+  display: none;
+}
+
+.slider__toggles {
+  display: flex;
+  width: 570px;
+  margin: 0 auto;
+  margin-bottom: 54px;
+  border: 1px solid @aqua;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.slider__toggle {
+  width: 134px;
+  padding: 13px 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 29px;
+  color: @aqua;
+  text-align: center;
+
+  &--one {
+    width: 168px;
+  }
+}
+
+#development:checked ~ .slider__toggles .slider__toggle--one,
+#design:checked ~ .slider__toggles .slider__toggle--two,
+#business:checked ~ .slider__toggles .slider__toggle--three,
+#arts:checked ~ .slider__toggles .slider__toggle--four {
+  background-color: @aqua;
+  color: @white;
+}
+
+.slider__slides {
+  width: 1180px;
+  display: flex;
+  height: 276px;
+  overflow-x: hidden;
+}
+
+.slider__slide {
+  display: flex;
+  background-color: transparent;
+}
+
+.slider__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 380px;
+  height: 276px;
+  margin-right: 20px;
+  background-image: url(/img/design_img.jpg);
+  background-repeat: no-repeat;
+}
+
+.slider__item:last-child {
+  margin-right: 0;
+}
+
+.slider__link {
+  position: relative;
+  display: block;
+  padding: 23px 0;
+  background-color: @white;
+  font-size: 14px;
+  line-height: 25px;
+  color: @grey-head;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.slider__link::before {
+  content: '';
+  position: absolute;
+  top: 37px;
+  right: 37px;
+  width: 9px;
+  height: 2px;
+  background-color: @aqua;
+  transform: rotate(-45deg);
+}
+
+.slider__link::after {
+  content: '';
+  position: absolute;
+  top: 32px;
+  right: 37px;
+  width: 9px;
+  height: 2px;
+  background-color: @aqua;
+  transform: rotate(45deg);
+}
+
+#design:checked ~ .slider__slides .slider__slide--two {
+  transform: translateX(-100%);
+}
+
+#business:checked ~ .slider__slides .slider__slide--three {
+  transform: translateX(-200%);
+}
+
+#arts:checked ~ .slider__slides .slider__slide--four {
+  transform: translateX(-300%);
+}
