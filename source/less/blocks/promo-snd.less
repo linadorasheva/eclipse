@@ -1,13 +1,18 @@
 .promo-snd {
+  position: relative;
   display: flex;
-  align-items: center;
-  height: 890px;
-  background-image: url('/img/promo2_bg.jpg');
+  height: 1590px;
+  background-image: url('/img/macbook.png'),
+                    url('/img/promo2_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 490px 370px,
+                      top;
 }
 
 .promo-snd__wrapper {
   display: flex;
   flex-direction: row;
+  margin-top: 300px;
 }
 
 .promo-snd__inner {
@@ -34,4 +39,19 @@
   font-size: 16px;
   line-height: 24px;
   color: @white;
+}
+
+.promo-snd__up {
+  position: absolute;
+  bottom: 410px;
+  left: 30px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #919191;
+  background-image: url('/img/btn_arrow_top_nocircle.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
 }

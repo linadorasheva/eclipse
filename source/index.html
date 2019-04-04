@@ -10,7 +10,7 @@
   <header class="page-header">
   </header>
   <main>
-    <section class="promo container">
+    <section id="promo" class="promo container">
       <nav class="main-nav">
         <ul class="main-nav__list">
           <li class="main-nav__item logo">
@@ -50,22 +50,24 @@
         </select>
         <input class="promo__input" type="email" name="email" value="Email" required>
         <button class="promo__btn" type="submit">
-          <svg class="arrow__img" width="16" height="16" viewBox="0 0 16 16" aria-label="логотип Eclipse">
+          <svg class="promo__btn-arrow" width="16" height="16" viewBox="0 0 16 16" aria-label="логотип Eclipse">
             <use xlink:href="sprite.svg#arrow-right"/>
           </svg>
         </button>
       </form>
-      <a class="arrow" href="#">
-        <svg class="arrow__img" width="21" height="21.062" aria-label="логотип Eclipse">
+      <a class="arrow arrow--promo" href="#">
+        <svg class="arrow__img arrow__img--promo" width="21" height="21.062" aria-label="стрелка-переход ниже">
           <use xlink:href="sprite.svg#arrow-bottom"/>
         </svg>
       </a>
+      <a class="label" href="#footer">Contact Us</a>
     </section>
+
     <section class="latest container">
       <h2 class="latest__title">Latest design style</h2>
       <p class="latest__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <a class="arrow" href="#">
-        <svg class="arrow__img" width="21" height="21.062" aria-label="логотип Eclipse">
+      <a class="arrow arrow--latest" href="#">
+        <svg class="arrow__img arrow__img--latest" width="21" height="21.062" aria-label="стрелка-переход ниже">
           <use xlink:href="sprite.svg#arrow-bottom"/>
         </svg>
       </a>
@@ -91,8 +93,8 @@
           <p class="features__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo r incididunt ut labore et dolore magna.</p>
         </div>
       </div>
-      <a class="arrow" href="#">
-        <svg class="arrow__img" width="21" height="21.062" aria-label="логотип Eclipse">
+      <a class="arrow arrow--features" href="#">
+        <svg class="arrow__img arrow__img--features" width="21" height="21.062" aria-label="стрелка-переход ниже">
           <use xlink:href="sprite.svg#arrow-bottom"/>
         </svg>
       </a>
@@ -102,7 +104,7 @@
       <p class="guidelines__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo r incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
       <div class="slider">
         <input class="slider__input" type="radio" name="toggle" id="development">
-        <input class="slider__input" type="radio" name="toggle" id="design">
+        <input class="slider__input" type="radio" name="toggle" id="design" checked>
         <input class="slider__input" type="radio" name="toggle" id="business">
         <input class="slider__input" type="radio" name="toggle" id="arts">
         <div class="slider__toggles">
@@ -174,9 +176,10 @@
           <p class="promo-snd__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
+      <a class="promo-snd__up" href="#promo">Up</a>
     </section>
   </main>
-  <footer class="page-footer container">
+  <footer id="footer" class="page-footer container">
     <div class="social">
       <a class="social__item social__item--tw" href="#">Tweet</a>
       <a class="social__item social__item--fb" href="#">Share</a>
@@ -184,24 +187,24 @@
     <div class="nav-footer">
       <ul class="nav-footer__list">
         <li class="nav-footer__item">
-          <a class="nav-footer__link" href="#"></a>
+          <a class="nav-footer__link" href="#">About us</a>
         </li>
         <li class="nav-footer__item">
-          <a class="nav-footer__link" href="#"></a>
+          <a class="nav-footer__link" href="#">Support</a>
         </li>
         <li class="nav-footer__item">
-          <a class="nav-footer__link" href="#"></a>
+          <a class="nav-footer__link" href="#">Why buy</a>
         </li>
         <li class="nav-footer__item">
-          <a class="nav-footer__link" href="#"></a>
+          <a class="nav-footer__link" href="#">Affiliates</a>
         </li>
       </ul>
       <ul class="nav-footer__list">
         <li class="nav-footer__item">
-          <a class="nav-footer__link" href="#"></a>
+          <a class="nav-footer__link" href="#">Contact Us</a>
         </li>
         <li class="nav-footer__item">
-          <a class="nav-footer__link" href="#"></a>
+          <a class="nav-footer__link" href="#">Returns</a>
         </li>
       </ul>
     </div>
@@ -211,7 +214,5 @@
     </div>
     <span class="etc">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
   </footer>
-  <a class="label" href="#">Contact us</a>
-  <a class="label__up" href="#">Up</a>
 </body>
 </html>
