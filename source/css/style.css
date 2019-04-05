@@ -71,7 +71,7 @@ body {
   height: 582px;
   padding-top: 330px;
   background-color: #3c086b;
-  background-image: url("/img/promo_bg.jpg");
+  background-image: url("../img/promo_bg.jpg");
 }
 .promo__title {
   width: 530px;
@@ -112,7 +112,7 @@ body {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background-image: url('/img/btn_arrow_down.svg');
+  background-image: url('../img/btn_arrow_down.svg');
   background-repeat: no-repeat;
   background-position: 240px center;
 }
@@ -129,7 +129,7 @@ body {
   border: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-image: url('/img/btn_arrow_right_nocircle.svg');
+  background-image: url('../img/btn_arrow_right_nocircle.svg');
   background-repeat: no-repeat;
   background-position: 234px center;
 }
@@ -188,7 +188,7 @@ body {
           align-items: center;
   height: 542px;
   background-color: #f5f7f9;
-  background-image: url('/img/phone.png');
+  background-image: url('../img/phone.png');
   background-repeat: no-repeat;
   background-position: center -100%;
 }
@@ -259,18 +259,18 @@ body {
 .features__item {
   width: 280px;
   padding-top: 170px;
-  background-image: url('/img/cart.png');
+  background-image: url('../img/cart.png');
   background-repeat: no-repeat;
   background-position: top center;
 }
 .features__item--plane {
-  background-image: url('/img/plane.png');
+  background-image: url('../img/plane.png');
 }
 .features__item--arrows {
-  background-image: url('/img/arrows.png');
+  background-image: url('../img/arrows.png');
 }
 .features__item--window {
-  background-image: url('/img/cart.png');
+  background-image: url('../img/cart.png');
 }
 .features__item-title {
   margin: 0;
@@ -356,7 +356,7 @@ body {
   width: 380px;
   height: 276px;
   margin-right: 20px;
-  background-image: url(/img/design_img.jpg);
+  background-image: url('../img/design_img.jpg');
   background-repeat: no-repeat;
 }
 .slider__item:last-child {
@@ -461,7 +461,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 1590px;
-  background-image: url('/img/macbook.png'), url('/img/promo2_bg.jpg');
+  background-image: url('../img/macbook.png'), url('../img/promo2_bg.jpg');
   background-repeat: no-repeat;
   background-position: 490px 370px,
                       top;
@@ -508,7 +508,7 @@ body {
   height: 50px;
   border-radius: 5px;
   background-color: #919191;
-  background-image: url('/img/btn_arrow_top_nocircle.svg');
+  background-image: url('../img/btn_arrow_top_nocircle.svg');
   background-repeat: no-repeat;
   background-position: center;
   font-size: 0;
@@ -531,7 +531,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #69b6f2;
-  background-image: url('/img/twit.svg');
+  background-image: url('../img/twit.svg');
   background-repeat: no-repeat;
   background-position: 18px 12px;
   color: #ffffff;
@@ -542,7 +542,7 @@ body {
 }
 .social__item--fb {
   background-color: #3a579a;
-  background-image: url('/img/facebook.svg');
+  background-image: url('../img/facebook.svg');
   background-position: 18px 10px;
 }
 .page-footer {
